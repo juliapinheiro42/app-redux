@@ -1,0 +1,62 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    gap: 40px;
+    list-style: none;
+   
+    
+}
+.box li{
+    display: flex;
+    flex-direction: column;
+    background: #DAE6F2;
+    border-radius: 5px;
+    padding: 13px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2), 0 0 10px rgba(0, 0, 0, .2), 0 0 30px rgba(0, 0, 0, .2), 0 0 30px rgba(0, 0, 0, .2);
+    margin-top: 30px;
+}
+.box img{
+    max-width: 280px;
+    max-height: 220px;
+    border-radius: 5px;
+    border-left: 5px  solid #ff7800;
+    border-bottom: 1px solid #ff7800;
+    border-top: 2px solid #ff7800;
+    border-collapse:collapse;
+    box-shadow: 0 0 3px #ff7800, 0 0 5px #ff7800, 0 0 5px #ff7800, 0 0 5px #ff7800;
+}
+.box strong{
+    font-size: 16px;
+    line-height: 20px;
+    color: #572f0b;
+    margin-top: 10px;
+}
+.box button{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #572f0b;
+    border-top: 2px solid rgb(238, 188, 113);
+    border-left:2px solid #f09647 ;
+    border-right:2px solid #e29f65 ;
+     border-bottom:2px solid #ff7800 ;
+    background:transparent ;
+    border-radius: 7px;
+    width: 190px;
+    transition: .1s ease-in;
+}
+.box button:hover{
+    background: linear-gradient( to right, #ffffff, #e29f65,#ff7800);
+    border: 0;
+   
+}
+.box button div{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   
+}
+.box button span{
+  font-size: 13px;
+}

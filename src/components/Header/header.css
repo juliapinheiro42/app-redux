@@ -1,0 +1,34 @@
+.container{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ margin: 0;
+ width: 66.4vw;
+ box-shadow: 0 0 3px rgba(0, 0, 0, .2), 0 0 5px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2);
+ border-radius: 0px 0px 7px 7px;
+}
+.logo{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    
+}
+.reservas{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.reservas div{
+    text-align: right;
+    margin-right: 10px;
+
+}
+.reservas strong{
+    color: #D6E6F3;
+    display: block;
+}
+.reservas span{
+    color: #D6E6F3;
+    font-size: 15px;
+}
